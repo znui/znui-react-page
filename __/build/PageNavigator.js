@@ -13,14 +13,7 @@ module.exports = React.createClass({
   componentDidMount: function componentDidMount() {
     this.__initHandler();
   },
-  __initHandler: function __initHandler() {
-    new HashHandler(this.props, {
-      hashchange: this.__hashchange,
-      handler: this.__handler,
-      request: this.__request,
-      notfound: this.__notfound
-    });
-  },
+  __initHandler: function __initHandler() {},
   __hashchange: function __hashchange(sender, event) {},
   __handler: function __handler(sender, event, data) {},
   __request: function __request(sender, request, route) {
