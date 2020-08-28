@@ -9,5 +9,8 @@ znui.react.createApplication({
         <page.PageBar title="Page Title" />
         <page.PageNavigator />
         <page.PageRouter />
+        <page.Page title="xxxx" >
+            <div>xxx</div>
+        </page.Page>
     </div>
 });

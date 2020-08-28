@@ -1,5 +1,6 @@
 module.exports = {
-    'PageBar': require('./PageBar.js'),
-    'PageNavigator': require('./PageNavigator.js'),
-    'PageRouter': require('./PageRouter.js')
+    Page: require('./Page'),
+    PageBar: require('./PageBar.js'),
+    PageNavigator: require('./PageNavigator.js'),
+    PageRouter: require('./PageRouter.js')
 };

@@ -3,15 +3,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #f7f3f3;
-    padding: 6px;
-    border-radius: 2px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 3px 6px;
+    line-height: 28px;
+    color: #696a6b;
     .bar-left{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        color: #656565;
+        flex: 1;
+        font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         .svg-inline--fa{
             width: 16px;
@@ -27,10 +28,20 @@
 
         }
     }
+    .bar-center{
+        height: 100%;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        word-break: keep-all;
+        flex: 1;
+    }
     .bar-right{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
+        flex: 1;
     }
 }
