@@ -1,6 +1,6 @@
 {
   "name": "znui-react-page",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Web page component.",
   "main": "index.js",
   "scripts": {

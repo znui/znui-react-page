@@ -1,9 +1,7 @@
 "use strict";
 
 var React = znui.React || require('react');
-
 var PageBar = require('./PageBar');
-
 module.exports = React.createClass({
   displayName: 'ZRPage',
   getDefaultProps: function getDefaultProps() {
